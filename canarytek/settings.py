@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -126,18 +126,50 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SAML2_AUTH = {
-    'DEFAULT_NEXT_URL': '/',
-    'ENTITY_ID': 'http://127.0.0.1:8000/metadata',
+    'DEFAULT_NEXT_URL': '/admin',
+    'ENTITY_ID': 'https://id.modularit.net',
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
     'ASSERTION_URL': 'http://127.0.0.1:8000',
     'METADATA_LOCAL_FILE_PATH': '/home/ctk/Documentos/canarytek/data.xml',
     'ACS_URL': 'http://127.0.0.1:8000/saml2_auth/acs/',
-    'ATTRIBUTES_MAP': {
-        'email': 'email',
-        'username': 'username',
-        'first_name': 'first_name',
-        'last_name': 'last_name',
-    },
-
+    
 }
+
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'console': {
+#             'class': 'logging.StreamHandler',
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['console'],
+#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+#         },
+#         'django_saml2_auth': {
+#             'handlers': ['console'],
+#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+
+#         },
+#     },
+# }
+
+
+LOGIN_URL = 'saml2_auth_login'
+
+
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s %(levelname)s %(message)s',
+    filename='debug.log',
+    filemode='a'
+)
+
+
+

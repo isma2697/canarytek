@@ -17,11 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path , include
 from django_saml2_auth.views import signin
-from myapp import views
+from myapp.views import custom_denied
 
 urlpatterns = [
+   
     path('admin/', admin.site.urls),
     # path('saml2_auth/denied/', views.custom_denied, name='django_saml2_auth:denied'),
     path('saml2_auth/', include('django_saml2_auth.urls')),
     path('saml2_auth/login/', signin, name='saml2_auth_login'),
+    path('saml2_auth/denied/', custom_denied, name='saml2_auth_denied'),
+    
+
 ]

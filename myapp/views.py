@@ -1,17 +1,27 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django_saml2_auth.views import denied
 
 
 
 
+def custom_denied(request):
+    # # Crea un objeto HttpResponse y guarda la información en el contexto
+    # http_response = HttpResponse(f"Usuario denegado: {request.user}")
+    # context = {'user': request.user, 'http_response': http_response}
 
+    # # Renderiza la plantilla HTML con el contexto
+    # return render(request, 'denied.html', context)
+   
+   
+    # # Imprime información del usuario en la consola:
+    # print("Usuario denegado:", request.user)
 
-def custom_denied(request, exception=None):
-    message = "Acceso denegado."
-    if exception:
-        message += f" Razón: {str(exception)}"
-    return HttpResponse(message, status=403)
+    # # Devuelve una respuesta HTTP con información del usuario:
+    # return HttpResponse(f"Usuario denegado: {request.user}")
+     # Crea un objeto HttpResponse y guarda la información en el contexto
+    http_response = HttpResponse(f"Usuario denegado: {request.user}")
+    context = {'user': request.user, 'http_response': http_response}
 
+    print("suario denegado:", request.user, "context:", context)
 
-
+    return HttpResponse(f"Usuario denegado: {request.user} context: {context} , request: {request}")
