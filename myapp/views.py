@@ -25,3 +25,6 @@ def custom_denied(request):
     print("suario denegado:", request.user, "context:", context)
 
     return HttpResponse(f"Usuario denegado: {request.user} context: {context} , request: {request}")
+
+def hola(request):
+    return HttpResponse("Hola Mundo")

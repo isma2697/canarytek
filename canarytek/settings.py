@@ -130,9 +130,22 @@ SAML2_AUTH = {
     'ENTITY_ID': 'https://id.modularit.net',
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
-    'ASSERTION_URL': 'http://127.0.0.1:8000',
+    'ASSERTION_URL': 'http://myapi.canarytek.es:8000',
     'METADATA_LOCAL_FILE_PATH': '/home/ctk/Documentos/canarytek/data.xml',
-    'ACS_URL': 'http://127.0.0.1:8000/saml2_auth/acs/',
+    'ACS_URL': 'https://myapi.canarytek.es:8000/saml2_auth/acs/',
+
+    'CREATE_USER': 'TRUE', # Create a new Django user when a new user logs in. Defaults to True.
+    'NEW_USER_PROFILE': {
+        'USER_GROUPS': [],  # The default group name when a new user logs in
+        'ACTIVE_STATUS': True,  # The default active status for new users
+        'STAFF_STATUS': True,  # The staff status for new users
+        'SUPERUSER_STATUS': False,  # The superuser status for new users
+    },
+    'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
+        'email': 'Email',
+        'username': 'UserName',
+    },
+
     
 }
 
