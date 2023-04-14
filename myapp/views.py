@@ -2,7 +2,11 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-
+def home(request):
+    context = {
+        'button_text': 'Iniciar Sesión'
+    }
+    return render(request, 'home.html', context)
 
 def custom_denied(request):
     # # Crea un objeto HttpResponse y guarda la información en el contexto
@@ -26,5 +30,3 @@ def custom_denied(request):
 
     return HttpResponse(f"Usuario denegado: {request.user} context: {context} , request: {request}")
 
-def hola(request):
-    return HttpResponse("Hola Mundo")

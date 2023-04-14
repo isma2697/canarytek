@@ -20,7 +20,7 @@ from django_saml2_auth.views import signin
 from myapp.views import *
 
 urlpatterns = [
-    path('', hola , name='hola'),
+    path('', home, name='home'),
    
     path('admin/', admin.site.urls),
     # path('saml2_auth/denied/', views.custom_denied, name='django_saml2_auth:denied'),
