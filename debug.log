@@ -1063,3 +1063,629 @@ django.template.exceptions.TemplateDoesNotExist: home.html
 2023-04-14 12:17:17,718 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
 2023-04-14 12:17:17,718 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
 2023-04-14 12:17:17,718 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:03,945 INFO /home/ctk/Documentos/canarytek/canarytek/urls.py changed, reloading.
+2023-04-14 12:21:04,358 INFO Watching for file changes with StatReloader
+2023-04-14 12:21:04,525 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:21:04,526 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:21:04,527 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:21:04,528 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:21:04,529 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:21:04,529 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:04,530 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:21:04,530 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:21:04,530 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:04,534 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:21:04,534 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:21:04,534 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:04,536 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:21:04,536 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:21:04,536 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:04,536 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:21:04,536 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:21:04,536 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:04,537 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:21:04,537 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:21:04,537 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:04,538 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:21:04,538 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:21:04,539 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:21:04,539 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:21,858 INFO Watching for file changes with StatReloader
+2023-04-14 12:21:22,003 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:21:22,003 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:21:22,003 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:21:22,004 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:21:22,004 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:21:22,005 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:22,006 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:21:22,006 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:21:22,006 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:22,009 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:21:22,009 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:21:22,009 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:22,010 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:21:22,010 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:21:22,011 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:22,011 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:21:22,012 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:21:22,012 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:22,012 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:21:22,012 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:21:22,013 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:21:22,013 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:21:22,014 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:21:22,014 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:21:22,014 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:23:07,833 DEBUG policy restrictions: None
+2023-04-14 12:40:15,435 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:40:15,761 INFO Watching for file changes with StatReloader
+2023-04-14 12:40:15,938 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:40:15,938 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:40:15,938 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:40:15,939 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:40:15,939 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:40:15,939 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:15,940 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:40:15,940 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:40:15,940 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:15,944 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:40:15,944 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:40:15,944 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:15,945 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:40:15,945 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:40:15,945 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:15,946 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:40:15,946 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:40:15,946 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:15,947 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:40:15,947 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:40:15,947 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:15,947 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:40:15,948 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:40:15,948 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:40:15,948 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,214 INFO Watching for file changes with StatReloader
+2023-04-14 12:40:23,353 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:40:23,353 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:40:23,353 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:40:23,354 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:40:23,355 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:40:23,355 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,356 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:40:23,356 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:40:23,356 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,359 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:40:23,359 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:40:23,359 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,360 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:40:23,360 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:40:23,360 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,360 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:40:23,360 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:40:23,360 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,361 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:40:23,361 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:40:23,361 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:40:23,362 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:40:23,362 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:40:23,363 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:40:23,363 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:35,896 INFO /home/ctk/Documentos/canarytek/canarytek/urls.py changed, reloading.
+2023-04-14 12:41:36,270 INFO Watching for file changes with StatReloader
+2023-04-14 12:41:36,435 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:41:36,435 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:41:36,435 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:41:36,436 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:41:36,437 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:41:36,437 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:36,438 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:41:36,438 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:41:36,438 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:36,442 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:41:36,442 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:41:36,442 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:36,443 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:41:36,443 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:41:36,443 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:36,444 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:41:36,444 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:41:36,444 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:36,445 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:41:36,445 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:41:36,445 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:41:36,446 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:41:36,446 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:41:36,447 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:41:36,447 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:46:43,796 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:46:44,199 INFO Watching for file changes with StatReloader
+2023-04-14 12:47:19,552 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:47:19,808 INFO Watching for file changes with StatReloader
+2023-04-14 12:47:20,014 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:47:20,014 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:47:20,014 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:47:20,015 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:47:20,015 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:47:20,015 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:47:20,016 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:47:20,016 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:47:20,016 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:47:20,020 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:47:20,020 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:47:20,020 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:47:20,021 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:47:20,021 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:47:20,021 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:47:20,022 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:47:20,022 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:47:20,022 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:47:20,023 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:47:20,023 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:47:20,023 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:47:20,024 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:47:20,024 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:47:20,024 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:47:20,024 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:49:59,433 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:49:59,824 INFO Watching for file changes with StatReloader
+2023-04-14 12:49:59,995 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:49:59,995 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:49:59,995 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:49:59,997 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:49:59,997 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:49:59,997 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:49:59,998 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:49:59,998 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:49:59,998 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:00,001 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:50:00,001 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:00,001 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:00,003 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:50:00,003 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:50:00,003 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:00,004 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:50:00,004 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:50:00,004 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:00,005 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:50:00,005 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:00,005 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:00,005 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:50:00,006 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:50:00,006 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:50:00,006 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,030 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:50:35,371 INFO Watching for file changes with StatReloader
+2023-04-14 12:50:35,551 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:50:35,552 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:35,552 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:50:35,553 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:50:35,553 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:50:35,553 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,554 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:50:35,554 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:50:35,555 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,559 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:50:35,559 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:35,559 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,560 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:50:35,560 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:50:35,560 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,560 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:50:35,560 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:50:35,561 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,561 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:50:35,562 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:35,562 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:35,562 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:50:35,563 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:50:35,563 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:50:35,563 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:57,478 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:50:57,827 INFO Watching for file changes with StatReloader
+2023-04-14 12:50:57,992 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:50:57,992 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:57,992 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:50:57,993 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:50:57,993 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:50:57,993 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:57,994 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:50:57,994 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:50:57,994 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:57,998 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:50:57,998 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:57,998 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:57,999 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:50:57,999 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:50:57,999 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:58,000 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:50:58,000 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:50:58,000 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:58,001 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:50:58,001 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:50:58,001 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:50:58,002 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:50:58,002 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:50:58,003 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:50:58,003 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,069 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:51:37,353 INFO Watching for file changes with StatReloader
+2023-04-14 12:51:37,494 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:51:37,494 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:51:37,494 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:51:37,495 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:51:37,495 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:51:37,495 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,496 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:51:37,496 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:51:37,496 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,500 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:51:37,501 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:51:37,501 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,502 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:51:37,502 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:51:37,502 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,502 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:51:37,502 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:51:37,503 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,503 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:51:37,503 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:51:37,503 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:51:37,504 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:51:37,504 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:51:37,505 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:51:37,505 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,437 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:52:07,762 INFO Watching for file changes with StatReloader
+2023-04-14 12:52:07,927 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:52:07,928 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:52:07,928 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:52:07,929 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:52:07,930 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:52:07,930 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,931 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:52:07,931 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:52:07,931 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,934 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:52:07,934 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:52:07,934 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,935 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:52:07,935 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:52:07,935 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,936 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:52:07,936 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:52:07,936 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,937 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:52:07,937 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:52:07,937 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:52:07,937 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:52:07,938 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:52:07,938 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:52:07,938 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,417 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:53:14,790 INFO Watching for file changes with StatReloader
+2023-04-14 12:53:14,973 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:53:14,973 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:53:14,973 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:53:14,975 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:53:14,975 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:53:14,975 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,976 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:53:14,976 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:53:14,976 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,979 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:53:14,979 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:53:14,979 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,980 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:53:14,980 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:53:14,980 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,980 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:53:14,980 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:53:14,981 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,981 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:53:14,981 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:53:14,981 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:14,982 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:53:14,982 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:53:14,983 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:53:14,983 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:36,904 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:53:37,226 INFO Watching for file changes with StatReloader
+2023-04-14 12:53:37,367 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:53:37,367 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:53:37,367 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:53:37,368 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:53:37,368 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:53:37,369 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:37,370 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:53:37,370 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:53:37,370 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:37,374 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:53:37,374 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:53:37,374 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:37,375 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:53:37,375 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:53:37,375 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:37,376 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:53:37,376 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:53:37,376 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:37,377 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:53:37,377 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:53:37,377 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:53:37,377 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:53:37,378 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:53:37,378 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:53:37,378 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:06,138 ERROR Internal Server Error: /saml2_auth/denied/
+Traceback (most recent call last):
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py", line 130, in denied
+    return render(r, 'django_saml2_auth/denied.html')
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_saml2_auth/denied.html
+2023-04-14 12:54:42,815 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:54:43,218 INFO Watching for file changes with StatReloader
+2023-04-14 12:54:43,385 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:54:43,385 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:54:43,385 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:54:43,386 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:54:43,386 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:54:43,386 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:43,387 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:54:43,387 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:54:43,388 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:43,392 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:54:43,392 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:54:43,392 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:43,393 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:54:43,393 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:54:43,393 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:43,394 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:54:43,394 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:54:43,394 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:43,395 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:54:43,395 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:54:43,395 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:54:43,395 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:54:43,396 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:54:43,396 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:54:43,396 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,334 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:55:08,656 INFO Watching for file changes with StatReloader
+2023-04-14 12:55:08,795 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:55:08,795 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:08,796 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:55:08,797 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:55:08,797 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:55:08,797 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,798 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:55:08,798 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:55:08,798 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,802 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:55:08,803 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:08,803 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,803 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:55:08,804 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:55:08,804 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,805 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:55:08,805 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:55:08,805 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,806 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:55:08,806 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:08,806 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:08,806 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:55:08,807 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:55:08,807 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:55:08,807 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:18,467 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:55:18,875 INFO Watching for file changes with StatReloader
+2023-04-14 12:55:19,027 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:55:19,027 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:19,027 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:55:19,029 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:55:19,029 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:55:19,029 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:19,030 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:55:19,030 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:55:19,030 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:19,033 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:55:19,033 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:19,033 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:19,034 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:55:19,034 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:55:19,034 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:19,035 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:55:19,035 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:55:19,035 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:19,036 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:55:19,036 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:19,036 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:19,036 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:55:19,037 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:55:19,037 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:55:19,037 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,026 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:55:49,404 INFO Watching for file changes with StatReloader
+2023-04-14 12:55:49,619 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:55:49,620 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:49,620 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:55:49,621 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:55:49,621 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:55:49,621 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,622 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:55:49,622 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:55:49,622 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,627 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:55:49,627 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:49,627 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,629 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:55:49,629 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:55:49,629 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,630 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:55:49,630 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:55:49,630 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,631 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:55:49,631 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:55:49,631 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:49,632 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:55:49,632 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:55:49,633 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:55:49,633 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:55:59,355 ERROR Internal Server Error: /saml2_auth/login/
+Traceback (most recent call last):
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ctk/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py", line 238, in signin
+    return HttpResponseRedirect()
+TypeError: __init__() missing 1 required positional argument: 'redirect_to'
+2023-04-14 12:56:46,078 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:56:46,411 INFO Watching for file changes with StatReloader
+2023-04-14 12:56:46,568 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:56:46,568 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:56:46,568 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:56:46,570 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:56:46,570 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:56:46,570 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:56:46,571 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:56:46,571 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:56:46,571 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:56:46,575 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:56:46,575 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:56:46,575 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:56:46,577 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:56:46,577 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:56:46,577 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:56:46,579 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:56:46,579 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:56:46,579 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:56:46,580 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:56:46,580 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:56:46,580 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:56:46,580 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:56:46,581 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:56:46,581 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:56:46,581 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,528 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:57:07,779 INFO Watching for file changes with StatReloader
+2023-04-14 12:57:07,944 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:57:07,944 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:57:07,945 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:57:07,946 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:57:07,947 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:57:07,947 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,948 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:57:07,948 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:57:07,948 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,952 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:57:07,952 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:57:07,952 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,953 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:57:07,953 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:57:07,953 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,954 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:57:07,954 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:57:07,954 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,955 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:57:07,955 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:57:07,955 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:07,955 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:57:07,956 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:57:07,956 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:57:07,956 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:15,630 INFO /home/ctk/.local/lib/python3.8/site-packages/django_saml2_auth/views.py changed, reloading.
+2023-04-14 12:57:15,958 INFO Watching for file changes with StatReloader
+2023-04-14 12:57:16,132 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:57:16,132 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:57:16,132 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:57:16,133 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:57:16,134 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:57:16,134 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:16,135 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:57:16,135 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:57:16,135 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:16,138 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:57:16,138 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:57:16,138 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:16,139 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:57:16,139 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:57:16,139 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:16,140 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:57:16,140 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:57:16,140 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:16,141 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:57:16,141 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:57:16,141 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:57:16,142 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:57:16,142 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:57:16,142 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:57:16,143 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:54,904 INFO /home/ctk/Documentos/canarytek/canarytek/settings.py changed, reloading.
+2023-04-14 12:58:55,180 INFO Watching for file changes with StatReloader
+2023-04-14 12:58:55,376 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 12:58:55,376 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:58:55,376 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 12:58:55,378 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:58:55,378 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:58:55,378 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:55,379 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:58:55,379 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:58:55,380 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:55,383 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 12:58:55,383 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:58:55,383 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:55,384 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 12:58:55,384 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 12:58:55,384 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:55,385 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 12:58:55,385 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 12:58:55,385 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:55,386 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 12:58:55,386 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 12:58:55,386 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:58:55,386 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 12:58:55,387 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 12:58:55,387 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 12:58:55,387 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 12:59:03,634 DEBUG policy restrictions: None
+2023-04-14 12:59:03,634 DEBUG service(https://id.modularit.net, idpsso_descriptor, single_sign_on_service, urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+2023-04-14 12:59:03,634 DEBUG service => [{'__class__': 'urn:oasis:names:tc:SAML:2.0:metadata&SingleSignOnService', 'binding': 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect', 'location': 'https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/'}]
+2023-04-14 12:59:03,635 DEBUG destination to provider: https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/
+2023-04-14 12:59:03,635 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-Ecaf61Fr7uqOF8fvq" Version="2.0" IssueInstant="2023-04-14T12:59:03Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="https://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 12:59:03,635 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-Ecaf61Fr7uqOF8fvq" Version="2.0" IssueInstant="2023-04-14T12:59:03Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="https://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 12:59:03,635 DEBUG HTTP REDIRECT
+2023-04-14 12:59:04,984 DEBUG policy restrictions: None
+2023-04-14 13:00:09,849 INFO Watching for file changes with StatReloader
+2023-04-14 13:00:10,026 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 13:00:10,026 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 13:00:10,026 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 13:00:10,026 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 13:00:10,026 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 13:00:10,026 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 13:00:10,027 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 13:00:10,027 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 13:00:10,027 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 13:00:10,029 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 13:00:10,029 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 13:00:10,029 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 13:00:10,030 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 13:00:10,030 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 13:00:10,030 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 13:00:10,030 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 13:00:10,030 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 13:00:10,030 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 13:00:10,031 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 13:00:10,031 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 13:00:10,031 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 13:00:10,031 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 13:00:10,032 DEBUG Read schema from 'file:///home/ctk/.local/lib/python3.8/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 13:00:10,032 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 13:00:10,032 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
