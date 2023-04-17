@@ -150,8 +150,6 @@ SAML2_AUTH = {
         'first_name': 'FirstName',
         'last_name': 'LastName',
     },
-
-    
 }
 
 # LOGGING = {
