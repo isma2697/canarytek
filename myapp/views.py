@@ -22,7 +22,7 @@ def custom_denied(request):
     http_response = HttpResponse(f"Usuario denegado: {request.user}")
     context = {'user': request.user, 'http_response': http_response}
 
-    print("suario denegado:", request.user, "context:", context)
+    print("Usuario denegado:", request.user, "context:", context)
 
     return HttpResponse(f"Usuario denegado: {request.user} context: {context} , request: {request}")
 

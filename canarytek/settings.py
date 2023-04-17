@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#oe=epr#z*u+&!xqd2)klwwp8q9i@&)s07urh@#!805sn*bynb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1' ,'myapi.canarytek.es']
 
 
 # Application definition
@@ -131,8 +131,8 @@ SAML2_AUTH = {
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
     'ASSERTION_URL': 'http://myapi.canarytek.es:8000',
-    'METADATA_LOCAL_FILE_PATH': '/home/ctk/Documentos/canarytek/data.xml',
-    'ACS_URL': 'https://myapi.canarytek.es:8000/saml2_auth/acs/',
+    'METADATA_LOCAL_FILE_PATH': '/home/canarytek1/Escritorio/canarytek/data.xml',
+    'ACS_URL': 'http://myapi.canarytek.es:8000/saml2_auth/acs/',
 
     'CREATE_USER': 'TRUE', # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {

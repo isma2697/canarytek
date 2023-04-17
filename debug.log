@@ -254,3 +254,454 @@
 2023-04-13 08:51:59,424 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-LJCQSFtCrvGCa9ztm" Version="2.0" IssueInstant="2023-04-13T08:51:59Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
 2023-04-13 08:51:59,425 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-LJCQSFtCrvGCa9ztm" Version="2.0" IssueInstant="2023-04-13T08:51:59Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
 2023-04-13 08:51:59,425 DEBUG HTTP REDIRECT
+2023-04-13 09:05:46,372 INFO Watching for file changes with StatReloader
+2023-04-13 09:05:47,776 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-13 09:05:47,776 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:05:47,776 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-13 09:05:47,794 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-13 09:05:47,794 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-13 09:05:47,795 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:47,797 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-13 09:05:47,797 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-13 09:05:47,797 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:47,813 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-13 09:05:47,814 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:05:47,814 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:47,815 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-13 09:05:47,816 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-13 09:05:47,816 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:47,817 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-13 09:05:47,817 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-13 09:05:47,817 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:47,819 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-13 09:05:47,820 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:05:47,820 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:47,820 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-13 09:05:47,823 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-13 09:05:47,823 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-13 09:05:47,823 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:05:53,666 ERROR Invalid HTTP_HOST header: 'myapi.canarytek.es:8000'. You may need to add 'myapi.canarytek.es' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'myapi.canarytek.es:8000'. You may need to add 'myapi.canarytek.es' to ALLOWED_HOSTS.
+2023-04-13 09:05:53,803 WARNING Bad Request: /
+2023-04-13 09:06:47,673 INFO /home/canarytek1/Escritorio/canarytek/canarytek/settings.py changed, reloading.
+2023-04-13 09:06:57,648 INFO Watching for file changes with StatReloader
+2023-04-13 09:06:57,840 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-13 09:06:57,840 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:06:57,840 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-13 09:06:57,841 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-13 09:06:57,841 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-13 09:06:57,841 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:06:57,841 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-13 09:06:57,841 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-13 09:06:57,842 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:06:57,844 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-13 09:06:57,844 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:06:57,845 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:06:57,845 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-13 09:06:57,845 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-13 09:06:57,845 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:06:57,846 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-13 09:06:57,846 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-13 09:06:57,846 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:06:57,846 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-13 09:06:57,846 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:06:57,847 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:06:57,847 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-13 09:06:57,847 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-13 09:06:57,847 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-13 09:06:57,847 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:05,686 ERROR Internal Server Error: /saml2_auth/login/
+Traceback (most recent call last):
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django_saml2_auth/views.py", line 243, in signin
+    saml_client = _get_saml_client(get_current_domain(r))
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/django_saml2_auth/views.py", line 116, in _get_saml_client
+    spConfig.load(saml_settings)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/config.py", line 337, in load
+    self.load_complex(cnf)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/config.py", line 271, in load_complex
+    self.setattr("", "metadata", self.load_metadata(cnf["metadata"]))
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/config.py", line 391, in load_metadata
+    mds.imp(metadata_conf)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/mdstore.py", line 1126, in imp
+    self.load(key, val)
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/mdstore.py", line 1100, in load
+    _md.load()
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/mdstore.py", line 794, in load
+    _txt = self.get_metadata_content()
+  File "/home/canarytek1/.local/lib/python3.10/site-packages/saml2/mdstore.py", line 790, in get_metadata_content
+    with open(self.filename, "rb") as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ctk/Documentos/canarytek/data.xml'
+2023-04-13 09:07:24,010 INFO /home/canarytek1/Escritorio/canarytek/canarytek/settings.py changed, reloading.
+2023-04-13 09:07:24,476 INFO Watching for file changes with StatReloader
+2023-04-13 09:07:24,733 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-13 09:07:24,733 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:07:24,733 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-13 09:07:24,734 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-13 09:07:24,735 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-13 09:07:24,735 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:24,735 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-13 09:07:24,735 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-13 09:07:24,735 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:24,742 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-13 09:07:24,742 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:07:24,743 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:24,744 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-13 09:07:24,744 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-13 09:07:24,744 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:24,745 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-13 09:07:24,745 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-13 09:07:24,745 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:24,746 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-13 09:07:24,746 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-13 09:07:24,746 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:24,746 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-13 09:07:24,747 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-13 09:07:24,747 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-13 09:07:24,747 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-13 09:07:29,245 DEBUG policy restrictions: None
+2023-04-13 09:07:29,246 DEBUG service(https://id.modularit.net, idpsso_descriptor, single_sign_on_service, urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+2023-04-13 09:07:29,246 DEBUG service => [{'__class__': 'urn:oasis:names:tc:SAML:2.0:metadata&SingleSignOnService', 'binding': 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect', 'location': 'https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/'}]
+2023-04-13 09:07:29,246 DEBUG destination to provider: https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/
+2023-04-13 09:07:29,247 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-smqIqjg6FSwigw8Ce" Version="2.0" IssueInstant="2023-04-13T09:07:29Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-13 09:07:29,248 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-smqIqjg6FSwigw8Ce" Version="2.0" IssueInstant="2023-04-13T09:07:29Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-13 09:07:29,248 DEBUG HTTP REDIRECT
+2023-04-13 09:07:31,450 DEBUG policy restrictions: None
+2023-04-14 08:08:43,265 INFO Watching for file changes with StatReloader
+2023-04-14 08:08:43,549 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:08:43,549 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:08:43,549 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:08:43,550 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:08:43,550 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:08:43,550 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:08:43,551 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:08:43,551 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:08:43,551 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:08:43,553 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:08:43,554 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:08:43,554 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:08:43,554 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:08:43,554 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:08:43,554 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:08:43,555 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:08:43,555 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:08:43,555 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:08:43,556 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:08:43,556 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:08:43,556 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:08:43,556 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:08:43,556 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:08:43,556 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:08:43,557 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,237 INFO Watching for file changes with StatReloader
+2023-04-14 08:17:23,452 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:17:23,452 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:17:23,453 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:17:23,453 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:17:23,453 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:17:23,453 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,454 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:17:23,454 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:17:23,454 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,457 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:17:23,457 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:17:23,457 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,458 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:17:23,458 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:17:23,458 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,458 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:17:23,458 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:17:23,458 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,459 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:17:23,459 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:17:23,459 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:17:23,459 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:17:23,460 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:17:23,460 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:17:23,460 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:19,927 INFO Watching for file changes with StatReloader
+2023-04-14 08:19:20,156 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:19:20,156 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:19:20,156 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:19:20,157 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:19:20,157 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:19:20,157 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:20,158 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:19:20,158 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:19:20,158 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:20,161 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:19:20,161 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:19:20,161 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:20,161 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:19:20,161 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:19:20,162 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:20,162 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:19:20,162 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:19:20,162 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:20,163 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:19:20,163 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:19:20,163 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:20,163 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:19:20,164 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:19:20,164 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:19:20,164 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:19:50,321 WARNING Not Found: /favicon.ico
+2023-04-14 08:21:51,694 DEBUG policy restrictions: None
+2023-04-14 08:21:51,695 DEBUG service(https://id.modularit.net, idpsso_descriptor, single_sign_on_service, urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+2023-04-14 08:21:51,695 DEBUG service => [{'__class__': 'urn:oasis:names:tc:SAML:2.0:metadata&SingleSignOnService', 'binding': 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect', 'location': 'https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/'}]
+2023-04-14 08:21:51,695 DEBUG destination to provider: https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/
+2023-04-14 08:21:51,695 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-xufdCeQqJLquglcDg" Version="2.0" IssueInstant="2023-04-14T08:21:51Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:21:51,696 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-xufdCeQqJLquglcDg" Version="2.0" IssueInstant="2023-04-14T08:21:51Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:21:51,696 DEBUG HTTP REDIRECT
+2023-04-14 08:22:06,820 DEBUG policy restrictions: None
+2023-04-14 08:23:10,187 INFO /home/canarytek1/Escritorio/canarytek/canarytek/urls.py changed, reloading.
+2023-04-14 08:23:10,902 INFO Watching for file changes with StatReloader
+2023-04-14 08:23:11,251 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:23:11,251 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:11,252 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:23:11,253 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:11,254 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:11,254 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:11,255 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:11,255 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:11,255 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:11,262 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:23:11,263 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:11,263 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:11,264 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:11,264 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:11,264 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:11,266 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:11,266 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:11,266 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:11,267 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:23:11,267 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:11,267 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:11,267 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:23:11,268 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:23:11,268 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:23:11,269 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:18,938 INFO /home/canarytek1/Escritorio/canarytek/canarytek/urls.py changed, reloading.
+2023-04-14 08:23:19,299 INFO Watching for file changes with StatReloader
+2023-04-14 08:23:19,489 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:23:19,490 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:19,490 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:23:19,490 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:19,490 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:19,490 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:19,491 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:19,491 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:19,491 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:19,494 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:23:19,494 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:19,494 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:19,495 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:19,495 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:19,495 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:19,495 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:19,495 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:19,495 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:19,496 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:23:19,496 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:19,496 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:19,496 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:23:19,497 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:23:19,497 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:23:19,497 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,345 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:23:41,346 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:41,346 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:23:41,347 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:41,347 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:41,347 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,347 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:41,347 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:41,347 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,350 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:23:41,350 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:41,350 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,351 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:41,351 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:41,351 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,352 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:41,352 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:41,352 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,352 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:23:41,352 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:41,352 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:41,353 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:23:41,353 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:23:41,353 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:23:41,353 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,549 INFO Watching for file changes with StatReloader
+2023-04-14 08:23:44,732 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:23:44,732 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:44,732 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:23:44,733 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:44,733 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:44,733 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,734 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:44,734 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:44,734 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,737 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:23:44,737 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:44,737 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,737 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:23:44,738 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:23:44,738 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,738 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:23:44,738 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:23:44,738 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,739 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:23:44,739 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:23:44,739 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:23:44,739 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:23:44,740 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:23:44,740 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:23:44,740 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:24:39,139 INFO /home/canarytek1/Escritorio/canarytek/canarytek/settings.py changed, reloading.
+2023-04-14 08:26:34,355 INFO Watching for file changes with StatReloader
+2023-04-14 08:26:34,539 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:26:34,540 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:26:34,540 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:26:34,540 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:26:34,540 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:26:34,541 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:26:34,541 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:26:34,541 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:26:34,541 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:26:34,544 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:26:34,544 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:26:34,544 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:26:34,545 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:26:34,545 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:26:34,545 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:26:34,545 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:26:34,545 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:26:34,545 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:26:34,546 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:26:34,546 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:26:34,546 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:26:34,546 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:26:34,547 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:26:34,547 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:26:34,547 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,371 INFO /home/canarytek1/Escritorio/canarytek/myapp/views.py changed, reloading.
+2023-04-14 08:28:12,777 INFO Watching for file changes with StatReloader
+2023-04-14 08:28:12,953 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:28:12,953 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:28:12,953 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:28:12,954 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:28:12,954 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:28:12,954 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,954 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:28:12,954 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:28:12,954 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,957 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:28:12,957 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:28:12,957 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,958 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:28:12,958 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:28:12,958 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,959 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:28:12,959 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:28:12,959 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,959 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:28:12,959 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:28:12,959 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:28:12,960 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:28:12,960 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:28:12,960 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:28:12,960 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:31,042 INFO Watching for file changes with StatReloader
+2023-04-14 08:40:36,199 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:40:36,200 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:40:36,200 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:40:36,221 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:40:36,222 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:40:36,222 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:36,238 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:40:36,273 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:40:36,273 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:36,885 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:40:36,885 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:40:36,885 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:36,886 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:40:36,886 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:40:36,886 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:36,887 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:40:36,887 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:40:36,887 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:36,896 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:40:36,896 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:40:36,896 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:40:36,896 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:40:36,906 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:40:36,906 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:40:36,906 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:44,672 INFO /home/canarytek1/Escritorio/canarytek/canarytek/settings.py changed, reloading.
+2023-04-14 08:42:53,955 INFO Watching for file changes with StatReloader
+2023-04-14 08:42:54,704 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-14 08:42:54,704 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:42:54,704 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-14 08:42:54,705 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:42:54,705 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:42:54,705 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:54,705 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:42:54,705 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:42:54,705 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:54,714 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-14 08:42:54,714 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:42:54,714 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:54,715 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-14 08:42:54,715 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-14 08:42:54,715 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:54,716 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-14 08:42:54,716 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-14 08:42:54,716 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:54,726 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-14 08:42:54,726 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-14 08:42:54,726 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:54,727 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-14 08:42:54,728 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-14 08:42:54,728 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-14 08:42:54,728 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-14 08:42:58,560 WARNING Not Found: /favicon.ico
+2023-04-14 08:44:32,991 DEBUG policy restrictions: None
+2023-04-14 08:44:33,004 DEBUG service(https://id.modularit.net, idpsso_descriptor, single_sign_on_service, urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+2023-04-14 08:44:33,004 DEBUG service => [{'__class__': 'urn:oasis:names:tc:SAML:2.0:metadata&SingleSignOnService', 'binding': 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect', 'location': 'https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/'}]
+2023-04-14 08:44:33,004 DEBUG destination to provider: https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/
+2023-04-14 08:44:33,004 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-01gAzh4EZMHDsYoMp" Version="2.0" IssueInstant="2023-04-14T08:44:32Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:44:33,006 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-01gAzh4EZMHDsYoMp" Version="2.0" IssueInstant="2023-04-14T08:44:32Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:44:33,006 DEBUG HTTP REDIRECT
+2023-04-14 08:45:00,165 DEBUG policy restrictions: None
+2023-04-14 08:45:00,550 WARNING Not Found: /favicon.ico
+2023-04-14 08:50:19,479 WARNING Not Found: /favicon.ico
+2023-04-14 08:50:54,401 WARNING Not Found: /favicon.ico
+2023-04-14 08:51:03,022 DEBUG policy restrictions: None
+2023-04-14 08:51:03,023 DEBUG service(https://id.modularit.net, idpsso_descriptor, single_sign_on_service, urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+2023-04-14 08:51:03,023 DEBUG service => [{'__class__': 'urn:oasis:names:tc:SAML:2.0:metadata&SingleSignOnService', 'binding': 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect', 'location': 'https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/'}]
+2023-04-14 08:51:03,023 DEBUG destination to provider: https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/
+2023-04-14 08:51:03,024 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-ieE9epSK2ohdZnUSp" Version="2.0" IssueInstant="2023-04-14T08:51:03Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:51:03,085 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-ieE9epSK2ohdZnUSp" Version="2.0" IssueInstant="2023-04-14T08:51:03Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:51:03,086 DEBUG HTTP REDIRECT
+2023-04-14 08:51:17,084 DEBUG policy restrictions: None
+2023-04-14 08:51:17,084 DEBUG service(https://id.modularit.net, idpsso_descriptor, single_sign_on_service, urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect)
+2023-04-14 08:51:17,084 DEBUG service => [{'__class__': 'urn:oasis:names:tc:SAML:2.0:metadata&SingleSignOnService', 'binding': 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect', 'location': 'https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/'}]
+2023-04-14 08:51:17,084 DEBUG destination to provider: https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/
+2023-04-14 08:51:17,084 DEBUG REQUEST: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-vao4SUeXRA1MT83LL" Version="2.0" IssueInstant="2023-04-14T08:51:17Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:51:17,084 DEBUG AuthNReq: <ns0:AuthnRequest xmlns:ns0="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" ID="id-vao4SUeXRA1MT83LL" Version="2.0" IssueInstant="2023-04-14T08:51:17Z" Destination="https://id.modularit.net/application/saml/django-saml/sso/binding/redirect/" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" AssertionConsumerServiceURL="http://myapi.canarytek.es:8000/saml2_auth/acs/"><ns1:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://id.modularit.net</ns1:Issuer></ns0:AuthnRequest>
+2023-04-14 08:51:17,085 DEBUG HTTP REDIRECT
+2023-04-14 08:51:32,319 DEBUG policy restrictions: None
