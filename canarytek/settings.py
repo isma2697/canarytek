@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#oe=epr#z*u+&!xqd2)klwwp8q9i@&)s07urh@#!805sn*bynb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1' ,'myapi.canarytek.es']
+ALLOWED_HOSTS = ['myapi.canarytek.es''127.0.0.1' ,'myapi.canarytek.es']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_saml2_auth',
+    'sslserver',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,9 @@ ROOT_URLCONF = 'canarytek.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/home/ctk/Documentos/canarytek/myapp/templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,8 +134,8 @@ SAML2_AUTH = {
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
     'ASSERTION_URL': 'http://myapi.canarytek.es:8000',
-    'METADATA_LOCAL_FILE_PATH': '/home/canarytek1/Escritorio/canarytek/data.xml',
-    'ACS_URL': 'http://myapi.canarytek.es:8000/saml2_auth/acs/',
+    'METADATA_LOCAL_FILE_PATH': '/home/ctk/Documentos/canarytek/data.xml',
+    'ACS_URL': 'https://myapi.canarytek.es:8000/saml2_auth/acs/',
 
     'CREATE_USER': 'TRUE', # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
@@ -144,9 +147,9 @@ SAML2_AUTH = {
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
         'email': 'Email',
         'username': 'UserName',
+        'first_name': 'FirstName',
+        'last_name': 'LastName',
     },
-
-    
 }
 
 # LOGGING = {
