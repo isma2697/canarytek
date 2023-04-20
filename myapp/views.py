@@ -1,40 +1,25 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import logout
+from django.shortcuts import redirect
 
-
-def home(request):
+@login_required(login_url='iniciar_sesion/')
+def iniciar_sesión(request):
     context = {
         'button_text': 'Iniciar Sesión'
     }
     return render(request, 'home.html', context)
 
-def principal(request):
-    context = {
-        'button_text': 'Cerrar Sesión',
-        'button_text_admin': 'Admin'
+def home(request):
+    
+    return render(request, 'home.html')
 
-    }
-    return render(request, 'principal.html', context)
+def inicio(request):
+    
+    return render(request, 'inicio.html')
 
-def custom_denied(request):
-    # # Crea un objeto HttpResponse y guarda la información en el contexto
-    # http_response = HttpResponse(f"Usuario denegado: {request.user}")
-    # context = {'user': request.user, 'http_response': http_response}
-
-    # # Renderiza la plantilla HTML con el contexto
-    # return render(request, 'denied.html', context)
-   
-   
-    # # Imprime información del usuario en la consola:
-    # print("Usuario denegado:", request.user)
-
-    # # Devuelve una respuesta HTTP con información del usuario:
-    # return HttpResponse(f"Usuario denegado: {request.user}")
-     # Crea un objeto HttpResponse y guarda la información en el contexto
-    http_response = HttpResponse(f"Usuario denegado: {request.user}")
-    context = {'user': request.user, 'http_response': http_response}
-
-    print("Usuario denegado:", request.user, "context:", context)
-
-    return HttpResponse(f"Usuario denegado: {request.user} context: {context} , request: {request}")
+def logout_view(request):
+    logout(request)
+    return redirect('/inicio/')
 
