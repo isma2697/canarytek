@@ -143,10 +143,7 @@ SAML2_AUTH = {
 
     'CREATE_USER': 'True', # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
-        'USER_GROUPS': [],  # The default group name when a new user logs in
-        'ACTIVE_STATUS': True,  # The default active status for new users
-        'STAFF_STATUS': True,  # The staff status for new users
-        'SUPERUSER_STATUS': True,  # The superuser status for new users
+        'USER_GROUPS': ['group'],  # The default group name when a new user logs in
     },  
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
         'email': 'emailAddress',
