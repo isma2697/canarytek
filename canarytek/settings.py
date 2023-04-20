@@ -134,7 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SAML2_AUTH = {
 
-    'DEFAULT_NEXT_URL': '/principal',
+    'DEFAULT_NEXT_URL': '/home',
     'ENTITY_ID': 'https://id.modularit.net',
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
