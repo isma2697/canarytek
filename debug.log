@@ -2111,3 +2111,29 @@ TypeError: can only concatenate str (not "WSGIRequest") to str
 2023-04-17 08:12:47,769 DEBUG policy restrictions: None
 2023-04-17 08:12:49,711 DEBUG policy restrictions: None
 2023-04-17 08:12:51,977 DEBUG policy restrictions: None
+2023-04-20 10:00:10,506 INFO Watching for file changes with StatReloader
+2023-04-20 10:00:10,707 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.0/XMLSchema.xsd'
+2023-04-20 10:00:10,707 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-20 10:00:10,707 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', 'hfp': 'http://www.w3.org/2001/XMLSchema-hasFacetAndProperty', '': ''}
+2023-04-20 10:00:10,708 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-20 10:00:10,708 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-20 10:00:10,708 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-20 10:00:10,709 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-20 10:00:10,709 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-20 10:00:10,709 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-20 10:00:10,712 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/XMLSchema.xsd'
+2023-04-20 10:00:10,712 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-20 10:00:10,712 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-20 10:00:10,713 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XML/xml_minimal.xsd'
+2023-04-20 10:00:10,713 DEBUG Schema targetNamespace is 'http://www.w3.org/XML/1998/namespace'
+2023-04-20 10:00:10,713 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-20 10:00:10,713 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSI/XMLSchema-instance_minimal.xsd'
+2023-04-20 10:00:10,713 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema-instance'
+2023-04-20 10:00:10,713 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-20 10:00:10,714 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/XSD_1.1/xsd11-extra.xsd'
+2023-04-20 10:00:10,714 DEBUG Schema targetNamespace is 'http://www.w3.org/2001/XMLSchema'
+2023-04-20 10:00:10,714 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
+2023-04-20 10:00:10,714 INFO Resource 'XMLSchema.xsd' is already loaded
+2023-04-20 10:00:10,715 DEBUG Read schema from 'file:///home/canarytek1/.local/lib/python3.10/site-packages/xmlschema/schemas/VC/XMLSchema-versioning.xsd'
+2023-04-20 10:00:10,715 DEBUG Schema targetNamespace is 'http://www.w3.org/2007/XMLSchema-versioning'
+2023-04-20 10:00:10,715 DEBUG Declared namespaces: {'xml': 'http://www.w3.org/XML/1998/namespace', 'xs': 'http://www.w3.org/2001/XMLSchema', '': ''}
