@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-#oe=epr#z*u+&!xqd2)klwwp8q9i@&)s07urh@#!805sn*bynb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['myapi.canarytek.es', '127.0.0.1' ,'myapi.canarytek.es']
+ALLOWED_HOSTS = ['myapi.canarytek.es', '127.0.0.1']
+
+AUTHENTICATION_BACKENDS = [    
+    'myapp.custom_saml_auth_backend.CustomSAMLAuthBackend',
+
+]
 
 
 # Application definition
@@ -40,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_saml2_auth',
     'sslserver',
+    'djangosaml2'
 ]
 
 MIDDLEWARE = [
@@ -50,8 +56,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'myapp.middleware.LogSamlAttributesMiddleware', 
+    
 ]
+
+
+
 
 ROOT_URLCONF = 'canarytek.urls'
 
@@ -133,7 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SAML2_AUTH = {
 
-    'DEFAULT_NEXT_URL': '/home',
+    'DEFAULT_NEXT_URL': '/home/',
     'ENTITY_ID': 'https://id.modularit.net',
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
@@ -141,21 +150,44 @@ SAML2_AUTH = {
     'METADATA_LOCAL_FILE_PATH': '/home/canarytek1/Escritorio/canarytek/metadata.xml',
     #'METADATA_AUTO_CONF_URL': 'https://id.modularit.net/api/v3/providers/saml/8/metadata/',
 
-    'CREATE_USER': 'True', # Create a new Django user when a new user logs in. Defaults to True.
+    'CREATE_USER': True, # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
-        'USER_GROUPS': ['group'],  # The default group name when a new user logs in
+        'USER_GROUPS': [],  # The default group name when a new user logs in
+        'ACTIVE_STATUS': True,  # The default active status for new users
+        'STAFF_STATUS': True,  # The staff status for new users
+        'SUPERUSER_STATUS': True,  # The superuser status for new users
+        
     },  
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
         'email': 'emailAddress',
         'username': 'name',
         'first_name': 'name',
-        'last_name': 'name',
+        'last_name': 'http://schemas.goauthentik.io/2021/02/saml/uid',
     },
 }
 
+#ver el atributo que mapea
+# permisos por grupo
+# cuando cree un usuario que lo cree con los permisos de el grupo
 
 
 
+
+LOGIN_URL = 'saml2_auth_login'
+
+
+# import logging
+
+# # Configure logging
+# logging.basicConfig(
+#     level=logging.DEBUG,
+#     format='%(asctime)s %(levelname)s %(message)s',
+#     filename='debug.log',
+#     filemode='a'
+# )
+
+
+# import logging
 
 # LOGGING = {
 #     'version': 1,
@@ -170,27 +202,8 @@ SAML2_AUTH = {
 #             'handlers': ['console'],
 #             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
 #         },
-#         'django_saml2_auth': {
-#             'handlers': ['console'],
-#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
-
-#         },
 #     },
 # }
-
-
-LOGIN_URL = 'saml2_auth_login'
-
-
-import logging
-
-# Configure logging
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s %(levelname)s %(message)s',
-    filename='debug.log',
-    filemode='a'
-)
 
 
 

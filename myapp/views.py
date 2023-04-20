@@ -4,8 +4,10 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout
 from django.shortcuts import redirect
 
+
+
 @login_required(login_url='iniciar_sesion/')
-def iniciar_sesión(request):
+def iniciar_sesion(request):
     context = {
         'button_text': 'Iniciar Sesión'
     }
@@ -21,5 +23,5 @@ def inicio(request):
 
 def logout_view(request):
     logout(request)
-    return redirect('/inicio/')
+    return redirect('/')
 
