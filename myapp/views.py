@@ -8,6 +8,14 @@ def home(request):
     }
     return render(request, 'home.html', context)
 
+def principal(request):
+    context = {
+        'button_text': 'Cerrar Sesión',
+        'button_text_admin': 'Admin'
+
+    }
+    return render(request, 'principal.html', context)
+
 def custom_denied(request):
     # # Crea un objeto HttpResponse y guarda la información en el contexto
     # http_response = HttpResponse(f"Usuario denegado: {request.user}")

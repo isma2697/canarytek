@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#oe=epr#z*u+&!xqd2)klwwp8q9i@&)s07urh@#!805sn*bynb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['myapi.canarytek.es''127.0.0.1' ,'myapi.canarytek.es']
+ALLOWED_HOSTS = ['myapi.canarytek.es', '127.0.0.1' ,'myapi.canarytek.es']
 
 
 # Application definition
@@ -59,7 +59,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            '/home/ctk/Documentos/canarytek/myapp/templates'
+            '/home/canarytek1/Escritorio/canarytek/myapp/templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -128,29 +128,37 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+
+
 SAML2_AUTH = {
-    'DEFAULT_NEXT_URL': '/admin',
+
+    'DEFAULT_NEXT_URL': '/principal',
     'ENTITY_ID': 'https://id.modularit.net',
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
     'USE_JWT': False,
-    'ASSERTION_URL': 'http://myapi.canarytek.es:8000',
-    'METADATA_LOCAL_FILE_PATH': '/home/ctk/Documentos/canarytek/data.xml',
-    'ACS_URL': 'https://myapi.canarytek.es:8000/saml2_auth/acs/',
+    'ASSERTION_URL': 'https://myapi.canarytek.es:8000',
+    'METADATA_LOCAL_FILE_PATH': '/home/canarytek1/Escritorio/canarytek/metadata.xml',
+    #'METADATA_AUTO_CONF_URL': 'https://id.modularit.net/api/v3/providers/saml/8/metadata/',
 
-    'CREATE_USER': 'TRUE', # Create a new Django user when a new user logs in. Defaults to True.
+    'CREATE_USER': 'False', # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
         'USER_GROUPS': [],  # The default group name when a new user logs in
         'ACTIVE_STATUS': True,  # The default active status for new users
         'STAFF_STATUS': True,  # The staff status for new users
-        'SUPERUSER_STATUS': False,  # The superuser status for new users
-    },
+        'SUPERUSER_STATUS': True,  # The superuser status for new users
+    },  
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
-        'email': 'Email',
-        'username': 'UserName',
-        'first_name': 'FirstName',
-        'last_name': 'LastName',
+        'email': 'emailAddress',
+        'username': 'name',
+        'first_name': 'name',
+        'last_name': 'name',
     },
 }
+
+
+
+
 
 # LOGGING = {
 #     'version': 1,

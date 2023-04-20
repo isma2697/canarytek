@@ -21,6 +21,7 @@ from myapp.views import *
 
 urlpatterns = [
     path('', home, name='home'),
+    path('principal', principal, name='principal'),
    
     path('admin/', admin.site.urls),
     # path('saml2_auth/denied/', views.custom_denied, name='django_saml2_auth:denied'),
@@ -28,5 +29,4 @@ urlpatterns = [
     path('saml2_auth/login/', signin, name='saml2_auth_login'),
     path('saml2_auth/denied/', custom_denied, name='saml2_auth_denied'),
     
-
 ]
