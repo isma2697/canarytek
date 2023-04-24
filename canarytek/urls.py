@@ -19,14 +19,18 @@ from django.urls import path , include
 from django_saml2_auth.views import signin
 from myapp.views import *
 
+
 urlpatterns = [
     path('', inicio, name='inicio'),
+    path('inicio/', inicio, name='inicio'),
 
     path('home/', home, name='home'),
     path('iniciar_sesion/', iniciar_sesion, name='iniciar_sesion'),
    
     path('admin/', admin.site.urls),
+
     # path('saml2_auth/denied/', views.custom_denied, name='django_saml2_auth:denied'),
+
     path('saml2_auth/', include('django_saml2_auth.urls')),
     path('saml2_auth/login/', signin, name='saml2_auth_login'),
     path('logout/', logout_view, name='logout'),

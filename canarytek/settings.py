@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_saml2_auth',
     'sslserver',
-    'djangosaml2'
+    'myapp'
 ]
 
 MIDDLEWARE = [
@@ -150,13 +150,9 @@ SAML2_AUTH = {
     'METADATA_LOCAL_FILE_PATH': '/home/canarytek1/Escritorio/canarytek/metadata.xml',
     #'METADATA_AUTO_CONF_URL': 'https://id.modularit.net/api/v3/providers/saml/8/metadata/',
 
-    'CREATE_USER': True, # Create a new Django user when a new user logs in. Defaults to True.
+    'CREATE_USER': 'True', # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
-        'USER_GROUPS': [],  # The default group name when a new user logs in
-        'ACTIVE_STATUS': True,  # The default active status for new users
-        'STAFF_STATUS': True,  # The staff status for new users
-        'SUPERUSER_STATUS': True,  # The superuser status for new users
-        
+        'USER_GROUPS': ['group'],  # The default group name when a new user logs in
     },  
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
         'email': 'emailAddress',
@@ -165,6 +161,7 @@ SAML2_AUTH = {
         'last_name': 'http://schemas.goauthentik.io/2021/02/saml/uid',
     },
 }
+
 
 #ver el atributo que mapea
 # permisos por grupo
