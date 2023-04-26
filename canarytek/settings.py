@@ -129,11 +129,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-
-
 SAML2_AUTH = {
-
     'DEFAULT_NEXT_URL': '/home',
     'ENTITY_ID': 'https://id.modularit.net',
     'NAME_ID_FORMAT': 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified',
@@ -142,22 +138,21 @@ SAML2_AUTH = {
     'METADATA_LOCAL_FILE_PATH': '/home/canarytek1/Escritorio/canarytek/metadata.xml',
     #'METADATA_AUTO_CONF_URL': 'https://id.modularit.net/api/v3/providers/saml/8/metadata/',
 
-    'CREATE_USER': 'False', # Create a new Django user when a new user logs in. Defaults to True.
+    'CREATE_USER': True, # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
-        'USER_GROUPS': [],  # The default group name when a new user logs in
-        'ACTIVE_STATUS': True,  # The default active status for new users
-        'STAFF_STATUS': True,  # The staff status for new users
-        'SUPERUSER_STATUS': True,  # The superuser status for new users
-    },  
+        'USER_GROUPS': [], # replace with the name of the group you want to add the user to
+    },
     'ATTRIBUTES_MAP': {  # Change Email/UserName/FirstName/LastName to corresponding SAML2 userprofile attributes.
         'email': 'emailAddress',
         'username': 'name',
         'first_name': 'name',
         'last_name': 'name',
     },
+    'TRIGGER': {
+        'CREATE_USER': 'myapp.create_user._create_user',
+    },
+    'GROUP_CREATE': False
 }
-
-
 
 
 
